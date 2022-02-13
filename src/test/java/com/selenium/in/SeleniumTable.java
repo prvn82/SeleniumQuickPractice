@@ -21,8 +21,8 @@ public class SeleniumTable {
 
             driver.manage().deleteAllCookies();
             driver.manage().window().maximize();
-            WebElement el = driver.findElement(By.xpath("//table[@id='customers']"));
-            System.out.println("Number of rows in employee table " + el.findElements(By.xpath(".//tbody/tr")).size());
+           WebElement el = driver.findElement(By.xpath("//table[@id='customers']"));
+            System.out.println("Number of rows in employee table " + el.findElements(By.xpath(".//tbody/tr")));
 
             List<WebElement> elements = el.findElements(By.xpath(".//tbody/tr"));
 
