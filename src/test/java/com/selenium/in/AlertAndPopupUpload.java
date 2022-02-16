@@ -48,6 +48,7 @@ public class AlertAndPopupUpload {
             System.out.println(driver.getCurrentUrl());
 
             driver.getWindowHandles();
+           // driver.findElement(By.className("sjssj")).
             driver.close();
 
 
